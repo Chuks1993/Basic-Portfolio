@@ -1,0 +1,16 @@
+body {
+	font-family: arial;
+	background-image: url("https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"); 
+}
+
+#header {
+
+	color:white;
+	text-align: center;
+	height:50px;
+    background:black;
+    border:1px solid #CCC;
+    width:960px;
+    margin:0px auto;
+}
+
