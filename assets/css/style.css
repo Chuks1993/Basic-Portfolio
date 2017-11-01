@@ -1,16 +1,47 @@
+nav {
+	width: 100%;
+	background-color: white;
+	height: 100px;
+	position: fixed;
+	top:0px;
+	left: 0;
+}
+
+
 body {
 	font-family: arial;
-	background-image: url("https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"); 
+	background-image: url("../images/footer_lodyas white.png"); 
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-#header {
 
-	color:white;
-	text-align: center;
-	height:50px;
-    background:black;
-    border:1px solid #CCC;
-    width:960px;
-    margin:0px auto;
+img {
+	max-height: 20%;
+	max-width: 20%;
 }
 
+h1 {
+	height: 100%;
+	margin: 0px;
+}
+
+.name {
+	background-color: #00b3b3;
+	color: white;
+	width: 25%;
+	display: inline-block;
+}
+
+li {
+	float: left;
+	padding: 10px;
+}
+
+.tabs {
+	display: inline-block;
+	list-style-type: none;
+	float: right;
+}
