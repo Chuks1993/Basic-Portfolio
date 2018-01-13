@@ -1,0 +1,154 @@
+header {
+	background-color: white;
+	top: 0;
+	border-bottom: 2px solid grey;
+}
+
+footer {
+	background-color: grey;
+	text-align: center;
+	bottom: 0;
+	border-top: 8px solid #4aaaa5;
+}
+
+footer p {
+	top: 50px;
+}
+
+
+header, footer {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	height: 100px;
+	color: white;
+}
+
+body {
+	font-family: arial;
+	background-image: url("../images/whitewall.jpeg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.name {
+	font-family: "Times New Roman";
+	padding: 10px 50px;
+	background-color: #4aaaa5;
+	position: absolute;
+	left:250px;
+}
+
+nav {
+	position: absolute;
+	right: 400px;
+}
+
+.tabs {
+	color: grey;
+	font-size: 20px;
+	list-style-type: none;
+}
+
+li {
+	float: left;
+	padding: 15px;
+}
+
+.tabs .name {
+	display: inline-block;
+}
+
+hr {
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+.section img {
+	
+	max-width: 300px;
+	max-height: 400px;
+}
+
+h2 {
+	color: #4aaaa5;
+}
+
+.section {
+	width: 800px;
+	height: 600px;
+	border: 2px solid grey;
+	max-width: 50%;
+	background-color: white;
+	position: absolute;
+	top: 150px;
+	left: 250px;
+}
+
+div p {
+	word-spacing: 1px;
+	letter-spacing: 1px;
+	padding: 5px;
+}
+
+#main {
+   padding: 20px;
+   padding-top: 30px;
+   margin: 20px;
+   margin-top: 30px;
+
+}
+
+.formBox2, .formBox {
+	width: 90%;
+    padding: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+    border: 2px solid #cccccc;
+    
+}
+
+.formBox2 {
+	height: 200px;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 125px;
+}
+
+h2, img, p {
+	margin: 20px;
+}
+
+aside {
+	text-align: center;
+	position: relative;
+	background-color: white;
+	float: right;
+	top: 140px;
+	right: 425px;
+	height: 200px;
+	border: 2px solid grey;
+
+}
+
+#buttons li {
+	list-style-type: none;
+	padding: 0px;
+}
+
+.social img {
+	max-height: 70px;
+	max-width: 70px;
+	padding: 5px;
+	margin: 0px;
+	
+}
