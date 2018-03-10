@@ -152,3 +152,8 @@ aside {
 	margin: 0px;
 	
 }
+
+a {
+	text-decoration: none;
+	color: grey;
+}

@@ -165,3 +165,8 @@ aside {
 	height: 40px;
 	background-color: #4aaaa5;
 }
+
+a {
+	text-decoration: none;
+	color: grey;
+}
